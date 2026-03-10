@@ -6,20 +6,20 @@ from src.bert_finetuning.pipeline.model_evaluation_05 import ModelEvaluationTrai
 
 
 # Data Ingestion
-# data_ingestion = DataIngestionTrainingPipeline()
-# data_ingestion.main()
+data_ingestion = DataIngestionTrainingPipeline()
+data_ingestion.main()
 
 # Data Validation
-# data_validation = DataValidationTrainingPipeline()
-# data_validation.main()
+data_validation = DataValidationTrainingPipeline()
+data_validation.main()
 
 # Data Transformation
 data_transformation = DataTransformationTrainingPipeline()
 data_transformation.main()
 
 # Model Training
-# model_trainer = ModelTrainerTrainingPipeline()
-# model_trainer.main()
+model_trainer = ModelTrainerTrainingPipeline()
+model_trainer.main()
 
 # Model Evaluation
 model_evaluation = ModelEvaluationTrainingPipeline()
