@@ -10,3 +10,4 @@ evaluate
 accelerate
 python-box
 ensure
+wandb

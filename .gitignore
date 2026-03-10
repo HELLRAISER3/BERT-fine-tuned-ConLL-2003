@@ -210,3 +210,6 @@ __marimo__/
 
 artifacts/data_ingestion
 artifacts/data_transformation
+artifacts/model_trainer
+
+wandb
