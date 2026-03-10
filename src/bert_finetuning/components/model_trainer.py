@@ -30,6 +30,7 @@ class ModelTrainer:
 
         labels_feature = dataset_pt["train"].features["labels"]
         
+        # Huge check, because stupid exception with feature.names
         if hasattr(labels_feature, "feature") and hasattr(labels_feature.feature, "names"):
             num_labels = len(labels_feature.feature.names)
         else:

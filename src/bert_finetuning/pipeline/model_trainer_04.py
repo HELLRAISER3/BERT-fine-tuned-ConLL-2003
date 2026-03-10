@@ -3,7 +3,7 @@ from src.bert_finetuning.components.model_trainer import ModelTrainer
 from src.bert_finetuning.logging import logger
 
 
-class ModelTrainerTrainPipeline:
+class ModelTrainerTrainingPipeline:
     def __init__(self):
         pass
 

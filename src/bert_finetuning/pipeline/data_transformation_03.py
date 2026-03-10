@@ -1,7 +1,7 @@
 from src.bert_finetuning.components.data_transformation import DataTransformation
 from src.bert_finetuning.config.configuration import ConfigurationManager
 
-class DataTransformationTrainPipeline:
+class DataTransformationTrainingPipeline:
     def __init__(self):
         pass
     

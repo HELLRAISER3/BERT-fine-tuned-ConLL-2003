@@ -7,6 +7,7 @@ notebook
 fastapi
 datasets
 evaluate
+seqeval
 accelerate
 python-box
 ensure

@@ -20,3 +20,9 @@ model_trainer:
   data_path: artifacts/data_transformation/dataset
   model_ckpt: bert-base-cased
 
+model_evaluation:
+  root_dir: artifacts/model_evaluation
+  data_path: artifacts/data_transformation/dataset
+  model_path: artifacts/model_trainer/model
+  tokenizer_path: artifacts/model_trainer/tokenizer
+  metric_file_name: artifacts/model_evaluation/metrics.csv
