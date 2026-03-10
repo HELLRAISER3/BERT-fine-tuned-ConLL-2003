@@ -1,0 +1,12 @@
+transformers
+transformers[torch]
+torch
+tqdm
+PyYAML
+notebook
+fastapi
+datasets
+evaluate
+accelerate
+python-box
+ensure
